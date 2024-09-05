@@ -1,0 +1,86 @@
+ * {
+     margin: 0;
+     padding: 0;
+     font-family: Arial, Helvetica, sans-serif;
+ }
+
+ .container {
+     width: 54rem;
+     height: 45rem;
+     background-color: #dadade;
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: center;
+     align-content: center;
+     margin: auto;
+     gap: 1.1rem;
+     position: relative;
+     /* outline: 1px solid brown; */
+ }
+
+ .number {
+     width: 12rem;
+     height: 10rem;
+     font-size: 3rem;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     outline: 2px solid black;
+     color: white;
+     transition: all 0.5s ease;
+     cursor: pointer;
+ }
+
+ .moveLeft {
+     background-color: coral;
+     transform: translate(-13.1rem, 0);
+ }
+
+ .moveRight {
+     background-color: coral;
+     transform: translate(13.1rem, 0);
+ }
+
+ .moveDown {
+     background-color: coral;
+     transform: translate(0, 11.1rem);
+ }
+
+ .moveTop {
+     background-color: coral;
+     transform: translate(0, -11.1rem);
+ }
+
+ .header {
+     width: 54rem;
+     display: flex;
+     margin: 2rem auto;
+     justify-content: space-between;
+     align-items: center;
+ }
+
+ .time-list {
+     text-align: end;
+ }
+
+ .title {
+     text-align: center;
+     font-size: 4rem;
+ }
+
+ .btn {
+     font-size: 2rem;
+     padding: 0.5rem 1rem;
+ }
+
+ .number-odd {
+     background-color: #d7c9aa;
+ }
+
+ .number-even {
+     background-color: #b98753;
+ }
+
+ .first {
+     display: none;
+ }
