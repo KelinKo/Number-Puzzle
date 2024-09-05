@@ -20,7 +20,7 @@
 下面是操作釋例
 
 
-![示範動畫](https://github.com/user-attachments/assets/73c3d80b-46f5-4f87-bf3d-93844035eff2)
+![操作](https://github.com/user-attachments/assets/26974b1e-69ec-4ed1-8860-42f2dcef2487)
 
 
 ---------------------------------------------------------
@@ -28,7 +28,7 @@
 獲勝以及再來一次的釋例
 
 
-![WIN](https://github.com/user-attachments/assets/d706b809-88b1-436f-be40-b6b867c62744)
+![WIN](https://github.com/user-attachments/assets/6dcedfec-0a46-4cbc-9d39-f3de645d8c31)
 
 
 ---------------------------------------------------------
