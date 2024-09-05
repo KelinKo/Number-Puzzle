@@ -1,5 +1,15 @@
 # Number-Puzzle
 
+
+
+
+![示範動畫](https://github.com/user-attachments/assets/73c3d80b-46f5-4f87-bf3d-93844035eff2)
+
+
+
+![WIN](https://github.com/user-attachments/assets/d706b809-88b1-436f-be40-b6b867c62744)
+
+
 這是一個數字華容道的網頁遊戲，他是一款經典的滑塊拼圖遊戲。
 
 遊戲說明：
