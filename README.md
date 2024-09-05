@@ -28,6 +28,7 @@ JS實作邏輯拆解
 
 
 使用技術
+
 1.利用Math.random來使任意數字排列
 
 2.運用CSS Transitions 和 Transform 來做移動的動畫效果
