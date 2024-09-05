@@ -4,9 +4,13 @@
      font-family: Arial, Helvetica, sans-serif;
  }
 
+ body {
+     transition: background-color 0.5s;
+ }
+
  .container {
      width: 54rem;
-     height: 45rem;
+     height: 46rem;
      background-color: #dadade;
      display: flex;
      flex-wrap: wrap;
