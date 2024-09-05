@@ -120,11 +120,14 @@ function win(same) {
         bestTimeText = time;
       }
     }
-    title.textContent = "🥳 You Win !!";
-    title.style.color = "white";
-    document.querySelector("body").style.backgroundColor = "#C3D825";
-    bestTime1.textContent = bestTimeText;
-    document.querySelector(".label-bestTime").classList.remove("first");
+
+    setTimeout(function () {
+      document.querySelector("body").style.backgroundColor = "#C3D825";
+      bestTime1.textContent = bestTimeText;
+      title.textContent = "🥳 You Win !!";
+      title.style.color = "white";
+      document.querySelector(".label-bestTime").classList.remove("first");
+    }, 300);
 
     clearInterval(timer);
     removeListner();
@@ -343,7 +346,7 @@ function moveUp() {
   document
     .getElementById(`n${resultArray[empty + 4]}`)
     .setAttribute("data-offset-y", offsetY);
-
+  //   console.log(`offsetY:${offsetY}`);
   removeListner();
   resultArray[empty] = resultArray[empty + 4];
   resultArray[empty + 4] = " ";
